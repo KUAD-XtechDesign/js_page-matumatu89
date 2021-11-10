@@ -7,7 +7,7 @@ html,body,#contents,.wrapper,#back{
 }
 
 .wrapper{
-  
+  animation: both;
 }
 
 li{
@@ -71,11 +71,17 @@ header ul li{
 
 #person{
   position: absolute;
-  top:200px;
-  right: -100px;
-  width: 100px;
+  top:10px;
+  right: -500px;
+  width: 400px;
   transition: 0.6s all;
+  animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
 }
+
 
 #person.anime{
   right: 10px;
@@ -89,6 +95,11 @@ header ul li{
   left: -250px;
   width: 250px;
   transition: 0.6s all;
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
 }
 
 #car.anime{
@@ -102,6 +113,11 @@ header ul li{
   left: 50%;
   position: absolute;
   opacity: 0;
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
 }
 
 
@@ -110,6 +126,11 @@ header ul li{
   animation: zoomInDown;
   animation-duration: 1s; 
   opacity: 1;
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
 }
 
 
